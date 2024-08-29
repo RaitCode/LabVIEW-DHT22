@@ -9,21 +9,27 @@ Project involves using a DHT22 or DHT11 sensor connected to an Arduino Uno to ac
     
     o	Typically, you would connect the sensor’s VCC to the Arduino's 5V pin, GND to GND, and the data pin to one of the digital pins, e.g., Digital Pin 2.
     
-  3.	Connect the Arduino to the Computer:
+  2.	Connect the Arduino to the Computer:
     o	Use a USB cable to connect the Arduino Uno to your computer.
-  4.	Upload the Arduino Sketch:
+
+  3.	Upload the Arduino Sketch:
      
     o	Open the Arduino IDE and load the sketch named "Humidity_and_Temp_SENSOR". This sketch was originally written by ladyada and is available in the public domain.
 
     o	Compile and upload the sketch to your Arduino board.
     
     o	Note the COM port (e.g., COM3, COM4) that your Arduino is connected to. You will need to select this port in LabVIEW.
-  5.	Setup LabVIEW for Data Acquisition:
+  4.	Setup LabVIEW for Data Acquisition:
+     
     o	Open your LabVIEW program.
+    
     o	On the front panel, locate the VISA resource name drop-down and select the COM port corresponding to your Arduino.
+    
     o	Create a .txt file in your preferred local directory to store the acquired data.
+    
     o	In the LabVIEW program, select the file path of this .txt file under the "Log File Path" section on the front panel.
-  6.	Running the Program:
+    
+  5.	Running the Program:
     o	Run the LabVIEW program to start acquiring and displaying the data from the Arduino.
     o	The program will continuously log the data to the selected .txt file as long as it’s running.
 
