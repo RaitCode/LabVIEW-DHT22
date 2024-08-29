@@ -31,7 +31,9 @@ Project involves using a DHT22 or DHT11 sensor connected to an Arduino Uno to ac
     o	In the LabVIEW program, select the file path of this .txt file under the "Log File Path" section on the front panel.
     
   5.	Running the Program:
+     
     o	Run the LabVIEW program to start acquiring and displaying the data from the Arduino.
+    
     o	The program will continuously log the data to the selected .txt file as long as it’s running.
 
 **Additional Considerations:**
