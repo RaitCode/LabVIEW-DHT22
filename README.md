@@ -24,5 +24,7 @@ Project involves using a DHT22 or DHT11 sensor connected to an Arduino Uno to ac
 **Additional Considerations:**
 
   •	Serial Communication Configuration: Ensure that the baud rate set in the LabVIEW VISA configuration matches the baud rate in your Arduino sketch (9600).
+  
   •	File Handling: Make sure the .txt file is not open in another program while LabVIEW is writing data to it to avoid access conflicts.
+  
 This setup allows for real-time monitoring and logging of temperature and humidity data, which can be valuable in various environmental monitoring and control applications.
