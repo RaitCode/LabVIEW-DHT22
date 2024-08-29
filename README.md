@@ -9,6 +9,7 @@ Project involves using a DHT22 or DHT11 sensor connected to an Arduino Uno to ac
   2.	Connect the Arduino to the Computer:
     o	Use a USB cable to connect the Arduino Uno to your computer.
   3.	Upload the Arduino Sketch:
+     
     o	Open the Arduino IDE and load the sketch named "Humidity_and_Temp_SENSOR". This sketch was originally written by ladyada and is available in the public domain.
 
     o	Compile and upload the sketch to your Arduino board.
