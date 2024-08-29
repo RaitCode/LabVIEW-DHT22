@@ -10,6 +10,7 @@ Project involves using a DHT22 or DHT11 sensor connected to an Arduino Uno to ac
     o	Typically, you would connect the sensor’s VCC to the Arduino's 5V pin, GND to GND, and the data pin to one of the digital pins, e.g., Digital Pin 2.
     
   2.	Connect the Arduino to the Computer:
+     
     o	Use a USB cable to connect the Arduino Uno to your computer.
 
   3.	Upload the Arduino Sketch:
